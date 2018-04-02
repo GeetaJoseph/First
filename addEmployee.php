@@ -13,6 +13,7 @@
 		echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
 	}
 	// Close connection
+	//connection established;
 	mysqli_close($conn);
 	header("refresh:5; url=main.php");
 	//exit;

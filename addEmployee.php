@@ -15,7 +15,7 @@
 	// Close connection
 	//connection established;
 	//yeaahhh
-	
+	//noooooo
 	mysqli_close($conn);
 	header("refresh:5; url=main.php");
 	//exit;
